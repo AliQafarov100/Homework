@@ -1,0 +1,77 @@
+.general-box{
+    width: 80%;
+    height: 80px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.child-box{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.big_child-box{
+    width: 50%;
+    height: 50px;
+    background-color: yellow;
+    position: relative;
+    top: 15px;
+    left: 25%;
+}
+.right-child-box{
+    width: 50px;
+    height:50px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+.child-right-box{
+    width: 20px;
+    height: 45px;
+    border: 2px solid green;
+    left: 15px;
+    position: relative;
+}
+
+.big_child-box *{
+    bottom: 0;
+}
+.purple-box{
+    width: 20%;
+    height: 30px;
+    background-color: purple;
+    position: relative;
+    top: 20px;
+}
+
+.red-box{
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.empty-box{
+    width: 20%;
+    height: 25px;
+    background-color: purple;
+    position: relative;
+    left: 40%;
+    bottom: 5px;
+}
+.short-box{
+    width: 50px;
+    height: 25px;
+    background-color: purple;
+    position: absolute;
+    right: 20px;
+}
